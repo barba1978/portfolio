@@ -5,9 +5,23 @@ var sect = document.querySelector('section');
 
 red.addEventListener("click",showContact)
 
-function  showContact(e){
+function  showContact(){
     sect.classList.remove("contacts")
 }
+
+blue.addEventListener("mouseenter",moveButton)
+blue.addEventListener("mouseout",moveButtonBack)
+
+
+function moveButton(){
+ blue.classList.add('move')   
+}
+
+function moveButtonBack(){
+    blue.classList.remove('move')   
+
+}
+
 
 
 

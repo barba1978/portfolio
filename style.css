@@ -66,7 +66,7 @@ height:45rem;
     position: relative;
     width: 18rem;
     height: 18rem;
-    z-index: 10;
+    opacity:1;
 }
 .frame{
     position: absolute;
@@ -264,3 +264,7 @@ section,li {
     list-style-type: none;
 }
 
+.move{
+    position:relative;
+    right: 150px;
+}
